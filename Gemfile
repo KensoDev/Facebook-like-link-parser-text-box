@@ -9,7 +9,6 @@ gem "rake", "0.8.7"
 gem 'mysql2', '0.2.7'
 gem 'heroku'
 gem 'nokogiri'
-gem "jammit"
 gem "faker"
 gem 'aws-s3', :require => 'aws/s3'
 gem 'capybara'
@@ -18,7 +17,6 @@ gem 'cucumber-rails'
 gem 'cucumber'
 gem 'launchy'    # So you can do Then show me the page
 gem 'pickle'
-gem 'rmagick', '2.12.2'
 
 # Use unicorn as the web server
 # gem 'unicorn'

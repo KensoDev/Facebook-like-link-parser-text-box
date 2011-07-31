@@ -49,4 +49,5 @@ group :development, :test do
   gem "redgreen"
   gem "ZenTest"
   gem 'spork', '~> 0.9.0.rc'
+  gem "jammit"
 end

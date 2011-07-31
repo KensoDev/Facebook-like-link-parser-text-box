@@ -1,0 +1,7 @@
+stylesheets:
+  common:
+    - public/stylesheets/application.css
+javascripts:
+  base:
+    - public/javascripts/base/jquery-1.6.2.min.js
+    - public/javascripts/base/application.js

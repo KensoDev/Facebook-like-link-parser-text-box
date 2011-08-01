@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
-	<%= include_stylesheets :common %>
-	<%= include_javascripts :base %>
-    <%= csrf_meta_tag %>
-    <%= yield(:head) %>
+    <title>Test Title</title>
   </head>
   <body>
     <div id="container">
-      <% flash.each do |name, msg| %>
-        <%= content_tag :div, msg, :id => "flash_#{name}" %>
-      <% end %>
-      <%= content_tag :h1, yield(:title) if show_title? %>
-      <%= yield %>
+		This is the text in the container
     </div>
+	<p>
+		<img src="http://www.kensodev.com/wp-content/uploads/2010/05/1275230907_internet-news-reader.png" />
+	</p>
+	<p>
+		<img src="http://farm5.static.flickr.com/4127/4991222376_977467af43_m.jpg" />
+	</p>
+	<p>
+		<img src="http://stackoverflow.com/users/flair/155720.png" />	
+	</p>
+	<p>
+		<img src="http://farm3.static.flickr.com/2451/5722811584_f56d95c100.jpg" />
+	</p>
   </body>
 </html>
